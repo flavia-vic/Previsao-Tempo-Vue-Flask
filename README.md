@@ -17,11 +17,15 @@ Este projeto é uma aplicação web para exibir a previsão do tempo de diversas
 - RestCountries API (para bandeiras)
 
 ## Instalação e Execução
-
-### 1. Configurar o Frontend (Vue.js)
-Execute os seguintes comandos no terminal:
+### 1. Clonar o repositório
+Primeiro, clone o repositório para o seu ambiente local:
 ```sh
-cd api-previsao-tempo
+git clone <URL do repositório>
+cd <diretório do repositório>
+```
+### 2. Configurar o Frontend (Vue.js)
+Execute o seguintes comandos no terminal:
+```sh
 npm install
 ```
 
@@ -30,7 +34,7 @@ Para iniciar o frontend:
 npm run dev
 ```
 
-### 2. Configurar o Backend (Flask)
+### 3. Configurar o Backend (Flask)
 Certifique-se de ter o Python instalado. Em seguida, instale as dependências do backend:
 ```sh
 pip install -r requirements.txt

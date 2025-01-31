@@ -6,7 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+.vscode
+__pycache__
 node_modules
 .DS_Store
 dist

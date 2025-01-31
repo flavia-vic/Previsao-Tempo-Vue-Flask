@@ -119,7 +119,7 @@ export default {
         const resposta = await axios.get(`https://api.unsplash.com/photos/random`, {
           params: {
             query: cidade,
-            client_id: "SUA-CHAVE-AQUI",
+            client_id: "SUA-CAVE-AQUI",
           },
         });
 
